@@ -16,7 +16,7 @@ public:
     auto Configure() -> void override {
         params.vsync = false;
         params.debug = true;
-        params.title = "Tetris";
+        params.title = "Gleam Tetris";
     }
 
     auto CreateScene() -> std::shared_ptr<gleam::Scene> override {
